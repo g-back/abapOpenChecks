@@ -1,0 +1,19 @@
+name: Lint Markdown
+
+on:
+  push:
+    branches: master
+  pull_request:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: Run Markdownlint
+    steps:
+    - uses: actions/checkout@v1
+    - uses: actions/setup-ruby@v1
+      with:
+        ruby-version: 2.6.x
+    - run: |
+        gem install mdl
+        mdl docs/
