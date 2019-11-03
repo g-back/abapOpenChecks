@@ -1,6 +1,5 @@
 {
   "name": "abapOpenChecks",
-  },
   "scripts": {
 	"scripts": {
     "lint-md": "remark ."
