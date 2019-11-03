@@ -20,7 +20,7 @@ jobs:
     - name: npm install, build, and test
       run: |
         npm install remark-lint
-        npm install remark-preset-lint-markdown-style-guide
+        npm install remark-cli remark-preset-lint-markdown-style-guide
         npm run lint-md
       #if: github.ref == 'refs/heads/master' && github.repository == 'larshp/abapOpenChecks'
       #npm install remark-cli remark-preset-lint-recommended
