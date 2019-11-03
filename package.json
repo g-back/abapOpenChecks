@@ -9,7 +9,7 @@
 		"remark-lint-no-dead-urls",
 		"remark-lint-no-repeat-punctuation",
 		"remark-lint-no-empty-sections",
-		"remark-lint-are-links-valid",
+		"remark-lint-are-links-valid"
 	]
   }
  }
