@@ -3,8 +3,5 @@
   "scripts": {
 	"scripts": {
     "lint-md": "remark ."
-  },
-  "remarkConfig": {
-    "plugins": ["remark-preset-lint-recommended"]
   }
  }
